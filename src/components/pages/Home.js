@@ -1,10 +1,5 @@
 import React from 'react'
 import MainSlider from '../inc/MainSlider'
-import slider1 from '../images/Homepage_Slider_Slide_1.jpg'
-import slider2 from '../images/Homepage_Slider_Slide_2.jpg'
-import slider3 from '../images/Homepage_Slider_Slide_4.jpg'
-import slider4 from '../images/Homepage_Slider_Slide_5.jpg'
-import slider5 from '../images/Homepage_Slider_Slide_6.jpg'
 import Slider from '../inc/Slider'
 
 function Home() {

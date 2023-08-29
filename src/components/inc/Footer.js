@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'react-bootstrap-icons';
 import BackToTop from '../BackToTop';
 import './footer.css'
 
