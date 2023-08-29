@@ -2,13 +2,6 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import slider1 from '../images/Homepage_Slider_Slide_1.jpg'
-import slider2 from '../images/Homepage_Slider_Slide_2.jpg'
-import slider3 from '../images/Homepage_Slider_Slide_4.jpg'
-import slider4 from '../images/Homepage_Slider_Slide_5.jpg'
-import slider5 from '../images/Homepage_Slider_Slide_6.jpg'
-
-import video1 from '../images/hero-video.mp4'
 
 
 
@@ -17,7 +10,7 @@ function Arrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black", borderRadius:"50%", cursor:"pointer" }}
+      style={{ ...style, marginTop:'-2.5rem', display: "block",color:'white', background: "black", borderRadius:"50%", cursor:"pointer" }}
       onClick={onClick}
     />
   );
@@ -67,39 +60,41 @@ function VideoSlider() {
     <div className='container'>
       <Slider {...settings}>
           <div className='card border border-0 px-1' >
-              <img src={slider1} className='w-100' />
+              <iframe className='w-100' src="https://www.youtube.com/embed/AMeKi_198HU?si=Q91DhFi1dVu_xdek">
+    </iframe>
             <div className='card-body'>
-              <p> Almalfi 4 Seat Round Set</p>
+              <p>Singapore assembly guide</p>
             </div>
           </div>
           <div  className='card border border-0 px-1' >
-            <img src={slider2} className='w-100' />
+            <iframe className='w-100' src="https://www.youtube.com/embed/qj0wX3Xs3u0?si=wdDk2XqffMIupsys" title="YouTube video player">
+    </iframe>
             <div className='card-body'>
-              <p> Almalfi 4 Seat Round Set</p>
+              <p> Berkeley Assembly</p>
             </div>
           </div>
           <div  className='card border border-0 px-1'>
-            <video src={video1} className='w-100' />
+            <iframe className='w-100' src="https://www.youtube.com/embed/sncYRjvnx6k?si=ZIn-3dh2i5IgLfAT" title="YouTube video player"></iframe>
             <div className='card-body'>
-              <p> Almalfi 4 Seat Round Set</p>
+              <p> Vienna dining</p>
             </div>
           </div>
           <div  className='card border border-0 px-1'>
-           <img src={slider3} className='w-100' />
+          <iframe className='w-100' src="https://www.youtube.com/embed/tmFmL1BXqWI?si=ZkBc6oKnTd61gaP_" title="YouTube video player"></iframe>
               <div className='card-body'>
                   <p> Almalfi 4 Seat Round Set</p>
                 </div>
           </div>
           <div  className='card border border-0 px-1'>
-          <img src={slider4} className='w-100' />
+          <iframe className='w-100' src="https://www.youtube.com/embed/3fM4VpJdXGo?si=p_BlrUo4TfMTAFa2" title="YouTube video player"></iframe>
           <div className='card-body'>
-                  <p> Almalfi 4 Seat Round Set</p>
+                  <p> Caring for your cast aluminium garden furniture</p>
                 </div>
           </div>
           <div  className='card border border-0 px-1'>
-          <img src={slider5} className='w-100' />
+          <iframe className='w-100' src="https://www.youtube.com/embed/12tTN1FDfC0?si=6rsmYCtF2Qiwf0DG" title="YouTube video player"></iframe>
           <div className='card-body'>
-                  <p> Almalfi 4 Seat Round Set</p>
+                  <p> Caribbean Cantilever </p>
                 </div>
           </div>
         </Slider>

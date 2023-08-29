@@ -6,7 +6,7 @@ function BackToTop() {
 
     useEffect( ()=>{
         window.addEventListener('scroll', ()=>{
-            if(window.scrollY >100){
+            if(window.scrollY >200){
                 setBackToTopButton(true)
             } else {
                 setBackToTopButton(false)
@@ -26,11 +26,16 @@ function BackToTop() {
     {backToTopButton && (
         <button style={{
             position:'fixed',
-            bottom:'50px',
-            right:'50px',
-            height:'50px',
-            fontSize:'50px',
-            backgroundColor:'transparent'
+            bottom:'40px',
+            right:'40px',
+            height:'40px',
+            fontSize:'1.25rem',
+            backgroundColor:'rgba(0,0,0,0.3)',
+            lineHeight:'36px',
+            color:'white',
+            textAlign:'center',
+            right:'30px',
+            cursor:'pointer'
         }}
         onClick={scrollUp}>^</button>
     )

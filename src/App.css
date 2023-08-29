@@ -1,6 +1,6 @@
 .section{
     padding-top: 40px;
-    padding-bottom: 40px;
+    
 }
 .main-heading{
     font-size: 27px;
@@ -12,16 +12,54 @@
 
 .sticky__header{
     width: 100%;
-    height: 80px;
+    height: 105px;
     line-height: 80px;
     background: #fff;
     position: sticky;
-    top: 0;
-    left: 0;
+    top: -1rem;
+    left: 1rem;
     box-shadow: 3px 3px 8px -3px #ddd;
     z-index: 999;
 }
 
+.izo{
+    opacity: 1;
+    
+    transform: scale(1.75,1.75);
+    animation: zoom-in-zoom-out 5s;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+  }
+
+  .nav-item{
+    display: block;
+    line-height: 22px;
+    padding: 14px 5px;
+    color: #444;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+
+  .search{
+    width: 120px;
+    border-left: 1px solid rgb(245, 228, 228);
+    padding: 31px;
+    margin: -8px;
+  }
+
+  .nav-margin{
+    margin: -1.5rem 0 -1.2rem 0;
+  }
 
 /* @media screen and (min-width:576px) {
     .carousel-inner{
@@ -38,3 +76,28 @@
 .carousel-inner{
     padding: 1em;
 } */
+
+svg:hover path {
+    fill: white;
+    transition: all ease 0.3s;
+  }
+  svg:hover rect {
+    fill: black;
+    transition: all ease 0.3s;
+  }
+
+
+
+@media screen and (max-width:992px){
+    .container-xxl{
+        padding: 0 30px;
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .container-xxl{
+        padding: 0 30px;
+    }
+}
+

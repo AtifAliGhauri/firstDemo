@@ -10,19 +10,19 @@ function Slider() {
     <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={slider1} className="d-block w-100" alt="..." />
+      <img src={slider1} className="d-block w-100 izo" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={slider2} className="d-block w-100" alt="..." />
+      <img src={slider2} className="d-block w-100 izo" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={slider3} className="d-block w-100" alt="..." />
+      <img src={slider3} className="d-block w-100 izo" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={slider4} className="d-block w-100" alt="..." />
+      <img src={slider4} className="d-block w-100 izo" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={slider5} className="d-block w-100" alt="..." />
+      <img src={slider5} className="d-block w-100 izo" alt="..." />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
