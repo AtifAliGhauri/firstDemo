@@ -10,7 +10,7 @@ function Arrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, marginTop:'-2.5rem', display: "block",color:'white', background: "black", borderRadius:"50%", cursor:"pointer" }}
+      style={{ ...style, marginTop:'0.5rem', display: "block",color:'white', background: "black", borderRadius:"50%", cursor:"pointer" }}
       onClick={onClick}
     />
   );
@@ -20,20 +20,20 @@ function Arrow(props) {
 
 
 function VideoSlider() {
-  var settings = {
-    dots: false,
+  const settings = {
+    dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     nextArrow: <Arrow />,
       prevArrow: <Arrow />,
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 2,
           infinite: true,
           dots: true
@@ -42,7 +42,7 @@ function VideoSlider() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2
         }
@@ -57,18 +57,21 @@ function VideoSlider() {
     ]
   };
   return (
-    <div className='container'>
-      <Slider {...settings}>
+  <>
+    <div className='container' style={{maxWidth:'max-content'}}>
+      <div className='' data-margin="20" data-pagi="true" data-autoplay="5000" data-items-xs="1" data-items-sm="2"
+          data-items-md="3" data-items-lg="4" data-loop="true">
+        <Slider {...settings}>
           <div className='card border border-0 px-1' >
               <iframe className='w-100' src="https://www.youtube.com/embed/AMeKi_198HU?si=Q91DhFi1dVu_xdek">
-    </iframe>
+             </iframe>
             <div className='card-body'>
               <p>Singapore assembly guide</p>
             </div>
           </div>
           <div  className='card border border-0 px-1' >
             <iframe className='w-100' src="https://www.youtube.com/embed/qj0wX3Xs3u0?si=wdDk2XqffMIupsys" title="YouTube video player">
-    </iframe>
+            </iframe>
             <div className='card-body'>
               <p> Berkeley Assembly</p>
             </div>
@@ -98,9 +101,9 @@ function VideoSlider() {
                 </div>
           </div>
         </Slider>
-
+      </div>
     </div>
-        
+  </>     
   )
 }
 

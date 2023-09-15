@@ -20,7 +20,7 @@ function Videos() {
             <div className='row mt-5'>
               <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-5'>
                 <div className='fluid-width-video-wrapper' style={{paddingTop: '56.25%'}}>
-                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' frameborder="0"></iframe>
+                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' title='9.Caring for your cast' frameborder="0"></iframe>
                 </div>
                 <div className='product-title cut-text' >  
 					          	Caring for your cast aluminium garden furniture with David Domoney
@@ -28,7 +28,7 @@ function Videos() {
               </div>
               <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-5'>
                 <div className='fluid-width-video-wrapper' style={{paddingTop: '56.25%'}}>
-                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0'></iframe>   
+                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' title='6.Caring for your cast'></iframe>   
                 </div>
                 <div className='product-title cut-text'>  
 				          		Caring for wooden garden furniture with David Domoney
@@ -37,7 +37,7 @@ function Videos() {
 
               <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-5'>
                 <div className='fluid-width-video-wrapper' style={{paddingTop: '56.25%'}}>
-                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0'></iframe>
+                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' title='1.Caring for your cast'></iframe>
                 </div>
                 <div className='product-title cut-text'>  
 				          		Caring for wooden garden furniture with David Domoney
@@ -46,7 +46,7 @@ function Videos() {
 
               <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-5'>
                 <div className='fluid-width-video-wrapper' style={{paddingTop: '56.25%'}}>
-                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0'></iframe>
+                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' title='3.Caring for your cast'></iframe>
                 </div>
                 <div className='product-title cut-text'>  
 				          		Caring for wooden garden furniture with David Domoney
@@ -55,7 +55,7 @@ function Videos() {
 
               <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-5'>
                 <div className='fluid-width-video-wrapper' style={{paddingTop: '56.25%'}}>
-                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0'></iframe>
+                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' title='5.Caring for your cast'></iframe>
                 </div>
                 <div className='product-title cut-text'>  
 				          		Caring for wooden garden furniture with David Domoney
@@ -64,7 +64,7 @@ function Videos() {
 
               <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-5'>
                 <div className='fluid-width-video-wrapper' style={{paddingTop: '56.25%'}}>
-                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0'></iframe>
+                  <iframe className='imgFrame' src='//www.youtube.com/embed/LoLcCj7IXyA?rel=0' title='4.Caring for your cast'></iframe>
                 </div>
                 <div className='product-title cut-text'>  
 				          		Caring for wooden garden furniture with David Domoney
